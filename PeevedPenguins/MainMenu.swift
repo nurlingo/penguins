@@ -24,7 +24,7 @@ class MainMenu: SKScene {
             return
         }
         
-        guard let scene = GameScene(fileNamed: "GameScene") else {
+        guard let scene = GameScene.level(1) else {
             print("Could not get GameScene")
             return
         }
