@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C2277131F0FDFC200E2B7FA /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C2277121F0FDFC200E2B7FA /* Fire.sks */; };
+		7C36D8D61F044BB400569479 /* Poof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C36D8D51F044BB400569479 /* Poof.sks */; };
+		7C36D8D91F044D8E00569479 /* sfx_seal.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7C36D8D81F044D8E00569479 /* sfx_seal.caf */; };
 		7C658FD51F02DA7F00A54358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C658FD41F02DA7F00A54358 /* AppDelegate.swift */; };
 		7C658FD71F02DA7F00A54358 /* Level_1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C658FD61F02DA7F00A54358 /* Level_1.sks */; };
 		7C658FD91F02DA7F00A54358 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C658FD81F02DA7F00A54358 /* Actions.sks */; };
@@ -22,9 +25,13 @@
 		7C658FF51F02F45100A54358 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C658FF41F02F45100A54358 /* MainMenu.sks */; };
 		7C658FF71F02F58400A54358 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C658FF61F02F58400A54358 /* MSButtonNode.swift */; };
 		7C658FF91F02F69F00A54358 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C658FF81F02F69F00A54358 /* MainMenu.swift */; };
+		7CA64F541F057FE6008766BC /* Seal.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7CA64F531F057FE6008766BC /* Seal.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C2277121F0FDFC200E2B7FA /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		7C36D8D51F044BB400569479 /* Poof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Poof.sks; sourceTree = "<group>"; };
+		7C36D8D81F044D8E00569479 /* sfx_seal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_seal.caf; sourceTree = "<group>"; };
 		7C658FD11F02DA7F00A54358 /* PeevedPenguins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeevedPenguins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C658FD41F02DA7F00A54358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C658FD61F02DA7F00A54358 /* Level_1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level_1.sks; sourceTree = "<group>"; };
@@ -38,10 +45,11 @@
 		7C658FEC1F02DB5D00A54358 /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
 		7C658FEE1F02DC3200A54358 /* Bear.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Bear.sks; sourceTree = "<group>"; };
 		7C658FF01F02DDD100A54358 /* CharacterActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = CharacterActions.sks; path = ../CharacterActions.sks; sourceTree = "<group>"; };
-		7C658FF21F02F28500A54358 /* Penguin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Penguin.swift; sourceTree = "<group>"; };
+		7C658FF21F02F28500A54358 /* Penguin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Penguin.swift; path = ../Penguin.swift; sourceTree = "<group>"; };
 		7C658FF41F02F45100A54358 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
 		7C658FF61F02F58400A54358 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
 		7C658FF81F02F69F00A54358 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		7CA64F531F057FE6008766BC /* Seal.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Seal.sks; path = ../Seal.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +63,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C36D8D71F044D8E00569479 /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				7C36D8D81F044D8E00569479 /* sfx_seal.caf */,
+			);
+			path = SFX;
+			sourceTree = "<group>";
+		};
 		7C658FC81F02DA7F00A54358 = {
 			isa = PBXGroup;
 			children = (
-				7C658FF21F02F28500A54358 /* Penguin.swift */,
 				7C658FD31F02DA7F00A54358 /* PeevedPenguins */,
 				7C658FD21F02DA7F00A54358 /* Products */,
 			);
@@ -75,8 +90,12 @@
 		7C658FD31F02DA7F00A54358 /* PeevedPenguins */ = {
 			isa = PBXGroup;
 			children = (
+				7C658FF21F02F28500A54358 /* Penguin.swift */,
 				7C658FD41F02DA7F00A54358 /* AppDelegate.swift */,
 				7C658FEE1F02DC3200A54358 /* Bear.sks */,
+				7C36D8D51F044BB400569479 /* Poof.sks */,
+				7C2277121F0FDFC200E2B7FA /* Fire.sks */,
+				7CA64F531F057FE6008766BC /* Seal.sks */,
 				7C658FF01F02DDD100A54358 /* CharacterActions.sks */,
 				7C658FF81F02F69F00A54358 /* MainMenu.swift */,
 				7C658FF41F02F45100A54358 /* MainMenu.sks */,
@@ -86,6 +105,7 @@
 				7C658FDC1F02DA7F00A54358 /* GameViewController.swift */,
 				7C658FF61F02F58400A54358 /* MSButtonNode.swift */,
 				7C658FDE1F02DA7F00A54358 /* Main.storyboard */,
+				7C36D8D71F044D8E00569479 /* SFX */,
 				7C658FEC1F02DB5D00A54358 /* assets.atlas */,
 				7C658FE11F02DA7F00A54358 /* Assets.xcassets */,
 				7C658FE31F02DA7F00A54358 /* LaunchScreen.storyboard */,
@@ -154,10 +174,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA64F541F057FE6008766BC /* Seal.sks in Resources */,
 				7C658FEF1F02DC3200A54358 /* Bear.sks in Resources */,
 				7C658FF51F02F45100A54358 /* MainMenu.sks in Resources */,
 				7C658FF11F02DDD100A54358 /* CharacterActions.sks in Resources */,
 				7C658FE01F02DA7F00A54358 /* Main.storyboard in Resources */,
+				7C36D8D61F044BB400569479 /* Poof.sks in Resources */,
+				7C2277131F0FDFC200E2B7FA /* Fire.sks in Resources */,
+				7C36D8D91F044D8E00569479 /* sfx_seal.caf in Resources */,
 				7C658FD71F02DA7F00A54358 /* Level_1.sks in Resources */,
 				7C658FED1F02DB5D00A54358 /* assets.atlas in Resources */,
 				7C658FE21F02DA7F00A54358 /* Assets.xcassets in Resources */,
@@ -342,6 +366,7 @@
 				7C658FEB1F02DA7F00A54358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

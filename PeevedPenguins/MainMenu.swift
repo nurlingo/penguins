@@ -29,11 +29,11 @@ class MainMenu: SKScene {
             return
         }
         
-        scene.scaleMode = .aspectFill
+        scene.scaleMode = .aspectFit
         
-        skView.showsPhysics = true
-        skView.showsDrawCount = true
-        skView.showsFPS = true
+//        skView.showsPhysics = true
+//        skView.showsDrawCount = true
+//        skView.showsFPS = true
         
         skView.presentScene(scene)
     }
